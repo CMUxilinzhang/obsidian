@@ -24,4 +24,4 @@ _policy-stable_ $\leftarrow$ true
 - **If** _old-action_ $\neq \pi(s)$, **then** _policy-stable_ $\leftarrow$ false **If** _policy-stable_, **then** stop and return $V \approx v_{*}$ and $\pi \approx \pi_{*}$; **else** go to 2.
 
 
-V
+# Value Iteration
