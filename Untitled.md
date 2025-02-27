@@ -1,1 +1,1 @@
-nishibushiyoubing
+nishibu
