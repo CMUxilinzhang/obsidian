@@ -1,5 +1,5 @@
 # Policy Iteration
-
+---
 ## 1. Initialization
 $V(s) \in \mathbb{R}$ and $\pi(s) \in \mathcal{A}(s)$ arbitrarily for all $s \in \mathcal{S}$.
 ## 2. Policy Evaluation
@@ -22,3 +22,6 @@ _policy-stable_ $\leftarrow$ true
   \pi(s) = \arg\max_{a} \sum_{s',r} p(s',r \mid s, a) \left[ r + \gamma V(s') \right]
   $$
 - **If** _old-action_ $\neq \pi(s)$, **then** _policy-stable_ $\leftarrow$ false **If** _policy-stable_, **then** stop and return $V \approx v_{*}$ and $\pi \approx \pi_{*}$; **else** go to 2.
+
+
+V
