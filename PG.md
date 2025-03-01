@@ -2,7 +2,7 @@
 
 ---
 Guanya的hw2.pdf：
-[[hw2.pdf]]
+[[hw2.pdf]]dP
 ## REINFORCE
 首先是，我们为什么要使用PG，一个逻辑上的回答就是，我们想得到的就是$\pi_\theta$ ，所以就直接求这个policy就可以了，不需要使用Value Iteration来间接求了。
 ###### 1. 定义式
